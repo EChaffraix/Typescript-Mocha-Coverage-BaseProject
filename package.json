@@ -1,0 +1,40 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "mocha": "tsc && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "ignore-styles": "^5.0.1",
+    "source-map-support": "^0.5.10",
+    "ts-node": "^8.0.2",
+    "tsconfig-paths": "^3.8.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [
+      "**/*.d.ts",
+      "dist/**",
+      "coverage/**"
+    ],
+    "reporter": [
+      "lcov"
+    ],
+    "all": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "mocha.logVerbose": true,
+    "mocha.requires": [
+        "ts-node/register",
+        "ignore-styles",
+        "tsconfig-paths/register",
+        "source-map-support/register"
+    ],
+    "mocha.files.glob": "**/*.ts",
+    "mocha.coverage": {
+        
+        "enable": true,
+        "decoration": true,
+        "runCoverageAfterFileSave": true
+      },
+}

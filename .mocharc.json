@@ -1,0 +1,9 @@
+{
+        "require": [
+                "ts-node/register",
+                "ignore-styles",
+                "tsconfig-paths/register",
+                "source-map-support/register"
+        ],
+        "spec": "test/**/*.spec.ts"
+}

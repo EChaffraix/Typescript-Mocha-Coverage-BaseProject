@@ -1,0 +1,5 @@
+dist
+coverage
+**/*.map
+node_modules
+.nyc_output
