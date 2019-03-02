@@ -4,7 +4,8 @@
         "ts-node/register",
         "ignore-styles",
         "tsconfig-paths/register",
-        "source-map-support/register"
+        "source-map-support/register",
+        "jsdom-global/register"
     ],
     "mocha.files.glob": "**/*.ts",
     "mocha.coverage": {
